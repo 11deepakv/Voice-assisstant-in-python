@@ -92,7 +92,7 @@ if __name__ == "__main__":
             speak('opening mdu website...')
             webbrowser.open('mdu.ac.in')
 
-        elif 'open mdu website' in query:
+        elif 'open w3 schools website' in query:
             speak('opening w3 schools website...')
             webbrowser.open('w3schools.com')
 
@@ -162,5 +162,5 @@ if __name__ == "__main__":
                 speak('Sorry, I am not able to send this email')
 
         elif "who am i" in query:
-            speak('Sir Your name is Deepak Verma, a Learner')
+            speak('Sir Your name is Deepak Verma')
             speak('It is my pleasure that i am your assistant')
